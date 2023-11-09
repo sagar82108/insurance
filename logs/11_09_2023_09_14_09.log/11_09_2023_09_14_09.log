@@ -1,0 +1,37 @@
+[2023-11-09 09:14:10,313 ] 160 numexpr.utils - INFO- NumExpr defaulting to 4 threads.
+[2023-11-09 09:14:12,898 ] 24 root - INFO- data ingestion has started
+[2023-11-09 09:14:12,915 ] 28 root - INFO- dataset read as pandas  dataframe
+[2023-11-09 09:14:12,923 ] 34 root - INFO- train test split
+[2023-11-09 09:14:12,931 ] 40 root - INFO- ingestion of data is completed
+[2023-11-09 09:14:12,964 ] 69 root - INFO- read train and test data completed
+[2023-11-09 09:14:12,964 ] 70 root - INFO- train dataframe head: 
+   age     sex   bmi  children smoker     region  expenses
+0   46  female  20.0         2     no  northwest   9193.84
+1   47  female  24.3         0     no  northeast   8534.67
+2   52  female  24.9         0     no  southeast  27117.99
+3   39  female  34.3         5     no  southeast   8596.83
+4   54  female  21.5         3     no  northwest  12475.35
+[2023-11-09 09:14:12,972 ] 71 root - INFO- test dataframe head : 
+   age     sex   bmi  children smoker     region  expenses
+0   45  female  25.2         2     no  northeast   9095.07
+1   36  female  30.0         0     no  northwest   5272.18
+2   64  female  26.9         0    yes  northwest  29330.98
+3   46    male  25.7         3     no  northwest   9301.89
+4   19    male  31.9         0    yes  northwest  33750.29
+[2023-11-09 09:14:12,972 ] 72 root - INFO- obtaining preprocessing object
+[2023-11-09 09:14:12,972 ] 31 root - INFO- data transformation initiated
+[2023-11-09 09:14:12,980 ] 82 root - INFO- train dataframe head: 
+   age     sex   bmi  children smoker     region
+0   46  female  20.0         2     no  northwest
+1   47  female  24.3         0     no  northeast
+2   52  female  24.9         0     no  southeast
+3   39  female  34.3         5     no  southeast
+4   54  female  21.5         3     no  northwest
+[2023-11-09 09:14:12,980 ] 83 root - INFO- test dataframe head : 
+0     9193.84
+1     8534.67
+2    27117.99
+3     8596.83
+4    12475.35
+[2023-11-09 09:14:12,997 ] 100 root - INFO- applying preprocesssing object on training and testing datasets
+[2023-11-09 09:14:13,005 ] 109 root - INFO- preprocessor pickle is created and logged

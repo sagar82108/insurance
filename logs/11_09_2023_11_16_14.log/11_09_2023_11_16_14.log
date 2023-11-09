@@ -1,0 +1,67 @@
+[2023-11-09 11:16:14,804 ] 160 numexpr.utils - INFO- NumExpr defaulting to 4 threads.
+[2023-11-09 11:16:16,618 ] 24 root - INFO- data ingestion has started
+[2023-11-09 11:16:16,625 ] 28 root - INFO- dataset read as pandas  dataframe
+[2023-11-09 11:16:16,632 ] 34 root - INFO- train test split
+[2023-11-09 11:16:16,643 ] 40 root - INFO- ingestion of data is completed
+[2023-11-09 11:16:16,674 ] 69 root - INFO- read train and test data completed
+[2023-11-09 11:16:16,681 ] 70 root - INFO- train dataframe head: 
+   age     sex   bmi  children smoker     region  expenses
+0   46  female  20.0         2     no  northwest   9193.84
+1   47  female  24.3         0     no  northeast   8534.67
+2   52  female  24.9         0     no  southeast  27117.99
+3   39  female  34.3         5     no  southeast   8596.83
+4   54  female  21.5         3     no  northwest  12475.35
+[2023-11-09 11:16:16,695 ] 71 root - INFO- test dataframe head : 
+   age     sex   bmi  children smoker     region  expenses
+0   45  female  25.2         2     no  northeast   9095.07
+1   36  female  30.0         0     no  northwest   5272.18
+2   64  female  26.9         0    yes  northwest  29330.98
+3   46    male  25.7         3     no  northwest   9301.89
+4   19    male  31.9         0    yes  northwest  33750.29
+[2023-11-09 11:16:16,695 ] 72 root - INFO- obtaining preprocessing object
+[2023-11-09 11:16:16,695 ] 31 root - INFO- data transformation initiated
+[2023-11-09 11:16:16,699 ] 82 root - INFO- train dataframe head: 
+   age     sex   bmi  children smoker     region
+0   46  female  20.0         2     no  northwest
+1   47  female  24.3         0     no  northeast
+2   52  female  24.9         0     no  southeast
+3   39  female  34.3         5     no  southeast
+4   54  female  21.5         3     no  northwest
+[2023-11-09 11:16:16,700 ] 83 root - INFO- test dataframe head : 
+0     9193.84
+1     8534.67
+2    27117.99
+3     8596.83
+4    12475.35
+[2023-11-09 11:16:16,723 ] 100 root - INFO- applying preprocesssing object on training and testing datasets
+[2023-11-09 11:16:16,729 ] 109 root - INFO- preprocessor pickle is created and logged
+[2023-11-09 11:16:16,730 ] 110 root - INFO- train dataframe head: 
+[[ 4.72226507e-01 -1.74857248e+00  1.02460160e+00 ... -5.99661065e-01
+  -5.72314096e-01  9.19384000e+03]
+ [ 5.43312939e-01 -1.03670397e+00  1.02460160e+00 ... -5.99661065e-01
+  -5.72314096e-01  8.53467000e+03]
+ [ 8.98745102e-01 -9.37373479e-01  1.02460160e+00 ...  1.66760869e+00
+  -5.72314096e-01  2.71179900e+04]
+ ...
+ [ 1.32526370e+00 -8.87708234e-01 -9.75989111e-01 ... -5.99661065e-01
+  -5.72314096e-01  1.19311300e+04]
+ [-1.67551386e-01  2.82063006e+00  1.02460160e+00 ... -5.99661065e-01
+   1.74729228e+00  4.61135100e+04]
+ [ 1.11200440e+00 -1.09619396e-01 -9.75989111e-01 ... -5.99661065e-01
+   1.74729228e+00  1.02146400e+04]]
+[2023-11-09 11:16:16,731 ] 111 root - INFO- test dataframe head : 
+[[ 4.01140074e-01 -8.87708234e-01  1.02460160e+00 ... -5.99661065e-01
+  -5.72314096e-01  9.09507000e+03]
+ [-2.38637818e-01 -9.30643142e-02  1.02460160e+00 ... -5.99661065e-01
+  -5.72314096e-01  5.27218000e+03]
+ [ 1.75178229e+00 -6.06271846e-01  1.02460160e+00 ... -5.99661065e-01
+  -5.72314096e-01  2.93309800e+04]
+ ...
+ [-9.64649533e-02 -4.24165947e-01 -9.75989111e-01 ... -5.99661065e-01
+  -5.72314096e-01  6.06713000e+03]
+ [ 1.04091797e+00  2.78751990e+00  1.02460160e+00 ...  1.66760869e+00
+  -5.72314096e-01  6.37704300e+04]
+ [ 8.27658669e-01  6.02249116e-01  1.02460160e+00 ... -5.99661065e-01
+   1.74729228e+00  9.87270000e+03]]
+[2023-11-09 11:16:16,731 ] 25 root - INFO- splitting dependent and independent variables from train and test
+[2023-11-09 11:16:17,680 ] 41 root - INFO- model report : {'DecisionTreeRegressor': 0.6842722622599504}

@@ -1,0 +1,15 @@
+[2023-11-09 17:49:08,565 ] 96 werkzeug - WARNING-  * Debugger is active!
+[2023-11-09 17:49:08,573 ] 96 werkzeug - INFO-  * Debugger PIN: 859-613-659
+[2023-11-09 17:49:12,510 ] 53 root - INFO- dataframe gathered
+[2023-11-09 17:49:13,359 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:49:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-11-09 17:49:13,399 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-11-09 17:49:13,402 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-11-09 17:49:13,489 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-11-09 17:49:13,816 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-11-09 17:50:46,650 ] 53 root - INFO- dataframe gathered
+[2023-11-09 17:50:46,690 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:50:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-11-09 17:50:46,726 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:50:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-11-09 17:50:46,730 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:50:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-11-09 17:50:46,825 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:50:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-11-09 17:50:47,103 ] 96 werkzeug - INFO- 127.0.0.1 - - [09/Nov/2023 17:50:47] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-11-09 17:50:55,205 ] 96 werkzeug - INFO-  * Detected change in 'C:\\Users\\Public\\insurance\\application.py', reloading

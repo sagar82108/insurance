@@ -1,0 +1,28 @@
+[2023-11-08 21:52:16,401 ] 160 numexpr.utils - INFO- NumExpr defaulting to 4 threads.
+[2023-11-08 21:52:18,796 ] 24 root - INFO- data ingestion has started
+[2023-11-08 21:52:18,811 ] 28 root - INFO- dataset read as pandas  dataframe
+[2023-11-08 21:52:18,828 ] 34 root - INFO- train test split
+[2023-11-08 21:52:18,828 ] 40 root - INFO- ingestion of data is completed
+[2023-11-08 21:52:18,864 ] 67 root - INFO- read train and test data completed
+[2023-11-08 21:52:18,864 ] 68 root - INFO- train dataframe columns: Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'expenses'], dtype='object')
+[2023-11-08 21:52:18,864 ] 69 root - INFO- test dataframe columns: Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'expenses'], dtype='object')
+[2023-11-08 21:52:18,864 ] 72 root - INFO- read train and test data completed
+[2023-11-08 21:52:18,877 ] 73 root - INFO- train dataframe head: 
+   age     sex   bmi  children smoker     region  expenses
+0   46  female  20.0         2     no  northwest   9193.84
+1   47  female  24.3         0     no  northeast   8534.67
+2   52  female  24.9         0     no  southeast  27117.99
+3   39  female  34.3         5     no  southeast   8596.83
+4   54  female  21.5         3     no  northwest  12475.35
+[2023-11-08 21:52:18,882 ] 74 root - INFO- test dataframe head : 
+   age     sex   bmi  children smoker     region  expenses
+0   45  female  25.2         2     no  northeast   9095.07
+1   36  female  30.0         0     no  northwest   5272.18
+2   64  female  26.9         0    yes  northwest  29330.98
+3   46    male  25.7         3     no  northwest   9301.89
+4   19    male  31.9         0    yes  northwest  33750.29
+[2023-11-08 21:52:18,882 ] 75 root - INFO- obtaining preprocessing object
+[2023-11-08 21:52:18,882 ] 31 root - INFO- data transformation initiated
+[2023-11-08 21:52:18,882 ] 84 root - INFO- Checking columns for X_train and X_test:
+[2023-11-08 21:52:18,882 ] 85 root - INFO- Columns in X_train: Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+[2023-11-08 21:52:18,882 ] 86 root - INFO- Columns in X_test: Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
