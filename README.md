@@ -1,4 +1,4 @@
-Certainly! A concise README for an insurance premium prediction project could look like this:
+
 
 ---
 
